@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005 & @HuzunluArtemis
+# (c) @Jackkl
 
 from configs import Config
 
