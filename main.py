@@ -17,7 +17,7 @@ from handlers.auth_check import AuthCheck
 
 if not Config.ONLY_BOT_MODE:
     User = Client( session_name=Config.STRING_SESSION, api_id=Config.API_ID,  api_hash=Config.API_HASH)
-Bot = Client( session_name="Auto Group - Private Chat Files Store Bot", api_id=Config.API_ID, api_hash=Config.API_HASH, bot_token=Config.BOT_TOKEN)
+Bot = Client("Auto Group - Private Chat Files Store Bot", api_id=Config.API_ID, api_hash=Config.API_HASH, bot_token=Config.BOT_TOKEN)
 
 # Start User Client
 if not Config.ONLY_BOT_MODE:
